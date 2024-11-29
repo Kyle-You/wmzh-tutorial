@@ -8,7 +8,7 @@
             <h1 class="text-3xl font-bold text-green-800 mb-2">{{ vaccine.name }}</h1>
             <p class="text-gray-600">{{ vaccine.description }}</p>
           </div>
-          <div class="text-right">
+          <div class="text-right w-32">
             <span class="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium">
               {{ vaccine.type }}疫苗
             </span>

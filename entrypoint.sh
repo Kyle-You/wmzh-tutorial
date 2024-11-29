@@ -1,4 +1,3 @@
 #!/bin/bash
 cd /home/devbox/project
-npm run build
-npm run start
+node .output/server/index.mjs
