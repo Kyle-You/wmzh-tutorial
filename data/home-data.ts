@@ -1,6 +1,3 @@
-import type { VaccineInfo } from './vaccine-info';
-import { vaccineList } from './vaccine-info';
-
 export interface Feature {
   title: string;
   description: string;
@@ -44,7 +41,37 @@ export const developments: Development[] = [
 ];
 
 // 从 vaccineList 中提取简化的疫苗信息
-export const vaccines = vaccineList.map(vaccine => ({
-  name: vaccine.name,
-  disease: vaccine.diseases.join('、')
-})); 
+export interface Vaccine {
+  name: string;
+  disease: string[];
+}
+export const vaccines: Vaccine[] = [
+  {
+    name: '卡介苗',
+    disease: ['结核病']
+  },
+  {
+    name: '乙肝疫苗',
+    disease: ['乙型肝炎']
+  },
+  {
+    name: '脊灰灭活疫苗',
+    disease: ['脊髓灰质炎']
+  },
+  {
+    name: '百白破疫苗',
+    disease: ['白喉', '破伤风', '百日咳']
+  },
+  {
+    name: '麻腮风疫苗',
+    disease: ['麻疹', '流行性腮腺炎', '风疹']
+  },
+  {
+    name: '乙脑减毒活疫苗',
+    disease: ['乙型脑炎']
+  },
+  {
+    name: '甲肝疫苗',
+    disease: ['甲型肝炎']
+  }
+];

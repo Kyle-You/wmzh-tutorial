@@ -96,6 +96,9 @@
         注：本表仅供参考，具体接种安排请以接种单位通知为准。国家免疫规划会根据疾病预防控制需要进行动态调整，请关注最新的官方通知。
       </p>
     </div>
+
+    <!-- 添加参考文献 -->
+    <References />
   </div>
 </template>
 
@@ -103,6 +106,7 @@
 import { vaccinationSchedules, basicPrinciples, specialNotes } from '~/data/vaccination-schedule';
 import { vaccineList } from '~/data/vaccine-info';
 import type { Schedule } from '~/data/types';
+import References from '~/components/References.vue';
 
 // 年龄组配置
 const ageGroups = {

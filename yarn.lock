@@ -384,27 +384,6 @@
   resolved "https://registry.npmmirror.com/@humanwhocodes/retry/-/retry-0.4.1.tgz"
   integrity sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==
 
-"@intlify/core-base@11.0.0-beta.2":
-  version "11.0.0-beta.2"
-  resolved "https://registry.npmmirror.com/@intlify/core-base/-/core-base-11.0.0-beta.2.tgz"
-  integrity sha512-w9mwdU4WnXhdAPohg/P47uZ4CetIQ5ExLAOBVtZaFpPoQ1ZDSpt/m8tDPyLh1ifAHHOlYuwFObK/7M7hygCd9g==
-  dependencies:
-    "@intlify/message-compiler" "11.0.0-beta.2"
-    "@intlify/shared" "11.0.0-beta.2"
-
-"@intlify/message-compiler@11.0.0-beta.2":
-  version "11.0.0-beta.2"
-  resolved "https://registry.npmmirror.com/@intlify/message-compiler/-/message-compiler-11.0.0-beta.2.tgz"
-  integrity sha512-/cJHP1n45Zlf9tbm/hudLrUwXzJZngR9OMTQk32H1S4lBjM2996wzKTHuLbaJJlJZNTTjnfWZUHPb+F6sE6p1Q==
-  dependencies:
-    "@intlify/shared" "11.0.0-beta.2"
-    source-map-js "^1.0.2"
-
-"@intlify/shared@11.0.0-beta.2":
-  version "11.0.0-beta.2"
-  resolved "https://registry.npmmirror.com/@intlify/shared/-/shared-11.0.0-beta.2.tgz"
-  integrity sha512-N6ngJfFaVA0l2iLtx/SymgHOBW4wiS5Pyue7YmY/G+mrGjesi+S+U+u/Xlv6pZa/YIBfeM4QB07lI7rz1YqKLg==
-
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
   resolved "https://registry.npmmirror.com/@ioredis/commands/-/commands-1.2.0.tgz"
@@ -1149,7 +1128,7 @@
     de-indent "^1.0.2"
     he "^1.2.0"
 
-"@vue/devtools-api@^6.5.0", "@vue/devtools-api@^6.6.4":
+"@vue/devtools-api@^6.6.4":
   version "6.6.4"
   resolved "https://registry.npmmirror.com/@vue/devtools-api/-/devtools-api-6.6.4.tgz"
   integrity sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==
@@ -5011,7 +4990,7 @@ smob@^1.0.0:
   resolved "https://registry.npmmirror.com/smob/-/smob-1.5.0.tgz"
   integrity sha512-g6T+p7QO8npa+/hNx9ohv1E5pVCmWrVCUzUXJyLdMmftX6ER0oiWY/w9knEonLpnOp6b6FenKnMfR8gqwWdwig==
 
-source-map-js@^1.0.1, source-map-js@^1.0.2, source-map-js@^1.2.0, source-map-js@^1.2.1:
+source-map-js@^1.0.1, source-map-js@^1.2.0, source-map-js@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz"
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
@@ -5725,15 +5704,6 @@ vue-devtools-stub@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmmirror.com/vue-devtools-stub/-/vue-devtools-stub-0.1.0.tgz"
   integrity sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==
-
-vue-i18n@^11.0.0-beta.2:
-  version "11.0.0-beta.2"
-  resolved "https://registry.npmmirror.com/vue-i18n/-/vue-i18n-11.0.0-beta.2.tgz"
-  integrity sha512-Z7Cnfxre5FhIy7tut1fGtTliInXWPJzNxhkWZiYUNGOgchtZj/0/3z7D5lbBt6Twl4YO+QENeFUycQ7ipxL5sA==
-  dependencies:
-    "@intlify/core-base" "11.0.0-beta.2"
-    "@intlify/shared" "11.0.0-beta.2"
-    "@vue/devtools-api" "^6.5.0"
 
 vue-router@^4.4.0, vue-router@^4.4.5, vue-router@latest:
   version "4.5.0"

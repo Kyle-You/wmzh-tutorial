@@ -114,9 +114,13 @@
         注：本页面提供的资源链接均来自官方渠道，如遇链接失效或内容更新，请以相关部门官方发布为准。
       </p>
     </div>
+
+    <!-- 添加参考文献 -->
+    <References />
   </div>
 </template>
 
 <script setup lang="ts">
 import { documents, websites, contacts, otherResources } from '~/data/resource-data';
+import References from '~/components/References.vue';
 </script> 

@@ -32,7 +32,7 @@
             <span class="inline-block w-2 h-2 rounded-full bg-green-500 mt-2 mr-3"></span>
             <div>
               <span class="font-medium text-gray-800">{{ vaccine.name }}</span>
-              <span class="text-sm text-gray-500 ml-2">预防{{ vaccine.disease }}</span>
+              <span class="text-sm text-gray-500 ml-2">预防{{ vaccine.disease.join('、') }}</span>
             </div>
           </li>
         </ul>

@@ -62,17 +62,20 @@
       </div>
 
       <!-- 注意事项 -->
-      <div v-if="vaccine.sideEffects?.length" class="bg-white rounded-lg shadow-md p-6">
+      <div v-if="vaccine.sideEffects?.length" class="bg-white rounded-lg shadow-md p-6 mb-8">
         <h2 class="text-xl font-bold text-green-700 mb-4">注意事项</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div v-for="(effect, index) in vaccine.sideEffects" 
-               :key="index" 
-               class="flex items-start bg-gray-50 rounded-lg p-4">
+        <ul class="space-y-3">
+          <li v-for="(effect, index) in vaccine.sideEffects" 
+              :key="index" 
+              class="flex items-start">
             <span class="inline-block w-2 h-2 rounded-full bg-green-500 mt-2 mr-3"></span>
             <span class="text-gray-600">{{ effect }}</span>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
+
+      <!-- 添加参考文献 -->
+      <References />
 
       <!-- 返回按钮 -->
       <div class="mt-8">
@@ -106,8 +109,8 @@
 <script setup lang="ts">
 import { vaccineList } from '~/data/vaccine-info';
 import { vaccinationSchedules } from '~/data/vaccination-schedule';
-import type { VaccineInfo } from '~/data/vaccine-info';
 import type { Schedule } from '~/data/vaccination-schedule';
+import References from '~/components/References.vue';
 
 const route = useRoute();
 const vaccineId = route.params.id as string;

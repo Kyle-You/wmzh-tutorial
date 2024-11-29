@@ -84,5 +84,34 @@ export const vaccineList: VaccineInfo[] = [
     diseases: ['水痘'],
     description: '预防水痘病毒感染',
     sideEffects: ['可能出现轻微皮疹', '发热']
+  },
+  {
+    id: 'hepa',
+    name: '甲肝疫苗',
+    type: '自费',
+    diseases: ['甲型肝炎'],
+    description: '预防甲型肝炎',
+    sideEffects: ['可能出现轻微发热']
+  },
+  {
+    id: 'menA',
+    name: 'A群流脑疫苗',
+    type: '自费',
+    diseases: ['A群流脑'],
+    description: '用于预防A群脑膜炎球菌引起的流行性脑脊髓膜炎'
+  },
+  {
+    id: 'dpt',
+    name: '百白破疫苗',
+    type: '免费',
+    diseases: ['白喉', '破伤风', '百日咳'],
+    description: '预防白喉、破伤风和百日咳'
+  },
+  {
+    id: 'dt',
+    name: '白破疫苗',
+    type: '免费',
+    diseases: ['白喉', '破伤风'],
+    description: '用于预防白喉和破伤风，是学龄期儿童加强免疫的疫苗',
   }
 ];

@@ -88,6 +88,9 @@
         </p>
       </div>
     </div>
+
+    <!-- 添加参考文献 -->
+    <References />
   </div>
 </template>
 
@@ -96,6 +99,7 @@ import SearchIcon from '~/components/icons/SearchIcon.vue';
 import ChevronIcon from '~/components/icons/ChevronIcon.vue';
 import { faqCategories, faqList } from '~/data/faq-data';
 import type { FAQ } from '~/data/faq-data';
+import References from '~/components/References.vue';
 
 const searchQuery = ref('');
 const activeCategory = ref('basic');
